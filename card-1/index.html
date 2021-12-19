@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Card-1</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+                      <!--Engagment of the Card-->
+  <div class="pt-16 pb-16 bg-gray-200">
+                      <!--Superior Card (image)-->
+      <div class="bg-white rounded-2xl w-80 justify-center items-center mx-auto">
+        <div class="">
+          <img
+            src="images/illustration-hero.svg"
+            class="rounded-t-2xl"
+          />
+        </div>
+
+                      <!--Inferior part of Card-->
+        <div class="p-6">
+          <h1 class="text-gray-700 text-lg justify-center center-object font-bold flex">
+            Order Summary
+          </h1>
+          <h2 class="text-xs mx-8 text-gray-400 font-light text-center ">
+            You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+          </h2>
+                      <!--Gray Bar -->
+          <div class="container rounded-lg mt-4 bg-gray-100 p-4">
+            <div class="flex items-center">
+              <div class="w-1/5">
+                <img
+                  src="images/icon-music.svg"
+                  class="flex h-10 w-10"
+                  />
+              </div>
+              <div class="w-3/5 h-8">
+                <p class="text-xs pl-3">
+                  Annual Plan <br> <span class="text-gray-400">$59.99/year</span>
+                </p>
+              </div>
+              <div class="w-1/5">
+                <button class="flex text-xs text-indigo-600 underline text-center hover:text-indigo-500 text-right p-4">
+                  Change
+                </button>
+              </div>
+            </div>
+          </div>
+                      <!--Blue bar and Cancel-->
+          <div>
+            <div>
+              <button class="container mt-4 bg-indigo-800 hover:bg-indigo-500 h-8 rounded-lg text-white text-xs">
+                Proceed to Payment
+              </button>
+            </div>
+            <div>
+              <button class="container font-bold text-gray-400 mt-4 hover:text-indigo-900 text-xs">
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>
+</html>
